@@ -1,0 +1,144 @@
+.header {
+  background-color: #ffffff;
+  color: #fff;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+/* Contenedor dentro del header */
+.header .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Estilo del título */
+.header-title {
+  font-size: 2.5rem;
+  margin-right: 20px;
+  text-align: center;
+}
+
+/* Estilo para la imagen */
+.header-image {
+  width: 240px;
+  height: auto;
+  border-radius: 8px;
+}
+/***************************************************************/
+/* Ajustar el tamaño de las imágenes */
+img {
+  width: 200px;
+  /* Sombra más notoria */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Efecto de zoom cuando se pasa el ratón sobre la imagen */
+img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+/* Separar las vistas entre sí */
+.row {
+  margin-bottom: 40px;
+}
+
+/* Añadir un margen superior e inferior a las vistas */
+.row:first-child {
+  margin-top: 60px;
+}
+
+.row:last-child {
+  margin-bottom: 60px;
+}
+
+/* Ajustar el contenedor de imágenes */
+.col-md-6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+/* Estilo para la imagen y el contenido */
+.col-md-6.text-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Estilo adicional para mejorar la tipografía */
+h1 {
+  color: #000000;
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+p {
+  font-size: 1rem;
+  color: #555;
+  margin-top: 0;
+}
+
+/* Ajustar el tamaño del contenedor */
+.container {
+  max-width: 900px;
+  padding: 0 15px;
+}
+
+/* Fondo y bordes redondeados para el contenedor principal */
+main {
+  background-color: #f8f9fa;
+  padding: 40px 0;
+  border-radius: 10px;
+}
+
+/* Separación de la barra de navegación del contenido */
+.navbar {
+  margin-bottom: 30px; /* Separar la navbar del contenido */
+}
+
+#download-container {
+  position: static;
+  margin-top: 50px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+#download-container h1 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+#qrcode {
+  display: block;
+  margin: 0 auto;
+  max-width: 150px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Cambiar el color del texto de los enlaces al pasar el ratón */
+.navbar-nav .nav-link:hover {
+  color: #1877f2;
+}
+
+@media (max-width: 768px) {
+  .header .container {
+    flex-direction: column;
+  }
+  .header-title {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}

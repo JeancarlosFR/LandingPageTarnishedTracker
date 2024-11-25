@@ -1,0 +1,49 @@
+/* Icono de Home */
+.home-icon {
+  font-size: 60px; /* Aumenta el tamaño del icono */
+  margin-left: 0; /* Elimina el margen izquierdo */
+  padding: 5px; /* Agrega un pequeño relleno */
+  display: flex; /* Asegura que sea flexible para centrarse */
+  align-items: center; /* Centra verticalmente */
+  justify-content: center; /* Centra horizontalmente */
+  background-color: #f8f9fa; /* Fondo claro para contraste */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sutil sombra para destacar */
+}
+
+/* Iconos dentro de las columnas */
+main .icon {
+  max-width: 80px; /* Limita el ancho máximo */
+  height: 80px; /* Establece una altura fija para uniformidad */
+  object-fit: contain; /* Asegura que las imágenes mantengan su proporción */
+  display: block; /* Asegura que se comporten como un bloque */
+  margin: 0 auto 10px; /* Centra la imagen horizontalmente y agrega espacio inferior */
+}
+
+/* Textos */
+main h3 {
+  font-size: 18px;
+  margin-bottom: 10px; /* Espacio entre título y texto */
+}
+
+main p {
+  font-size: 14px;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+  /* Iconos en pantallas pequeñas */
+  main .icon {
+    max-width: 60px; /* Reduce el tamaño para dispositivos más pequeños */
+    height: 60px;
+  }
+
+  /* Header */
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  header h1 {
+    font-size: 18px; /* Ajusta el tamaño del texto para pantallas pequeñas */
+  }
+}

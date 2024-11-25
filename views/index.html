@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/styleshit.css" />
+    <script src="https://cdn.jsdelivr.net/npm/qrcodejs@1.0.0/qrcode.min.js"></script>
+  </head>
+  <body>
+    </div>
+    <header class="header">
+      <div class="container">
+        <div class="text-content">
+          <h1 class="header-title">Bienvenido a Nuestra App</h1>
+          <p class="header-subtitle">
+            Explora todo lo que nuestra aplicación tiene para ofrecerte.
+          </p>
+          
+        </div>
+        <div class="image-container">
+          <img
+            src="../assets/appconlogo.png"
+            alt="Imagen de cabecera"
+            class="header-image"
+          />
+        </div>
+      </div>
+    
+      <!-- Navbar con el fondo oscuro y texto blanco -->
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Quienes somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="../views/ficha-tecnica.html">Ficha Técnica</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    
+
+    <main class="container">
+      <!--First View-->
+      <div class="row">
+        <div class="col-md-6 text-center">
+          <img src="../assets/login.jpeg" alt="Login" id="imagen-principal" />
+        </div>
+        <div class="col-md-6 text-center">
+          <h1 class="font-weight-bold">Login</h1>
+          <p>Login seguro</p>
+        </div>
+      </div>
+      <!--Second View-->
+      <div class="row flex-row-reverse">
+        <div class="col-md-6 text-center">
+          <img src="../assets/inicio.jpeg" alt="Inicio" />
+        </div>
+        <div class="col-md-6 text-center">
+          <h1 class="font-weight-bold">Inicio</h1>
+          <p>
+            Un inicio con multiples funciones, podrás realizar lo siguiente: 
+            ingresar a tu perfil, registrar tu asistencia a través de lectura de QR con tu camara y crear tus tareas personalizadas.
+          </p>
+        </div>
+      </div>
+      <!--Third View-->
+      <div class="row">
+        <div class="col-md-6 text-center">
+          <img src="../assets/miperfil.jpeg" alt="Perfil" />
+        </div>
+        <div class="col-md-6 text-center">
+          <h1 class="font-weight-bold">Perfil</h1>
+          <p>En tu perfil podrás ver el historial de tu asistencia</p>
+        </div>
+      </div>
+      <!--fourth View-->
+      <div class="row flex-row-reverse">
+        <div class="col-md-6 text-center">
+          <img
+            src="../assets/asistenciaregister.jpeg"
+            alt="AsistenciaRegister"
+          />
+        </div>
+        <div class="col-md-6 text-center">
+          <h1 class="font-weight-bold">Registrar asistencia</h1>
+          <p>Aquí podrás registrar tu asistencia a través de tu camara mediante la lectura de codigo QR</p>
+        </div>
+      </div>
+
+      
+    </main>
+    <!-- Enlace al archivo JavaScript -->
+    <footer>
+      <div class="container text-center mt-5">
+        <div id="download-container">
+          
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+  <script src="../js/appdownload.js"></script>
+</html>
