@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // URL para APP
   const tarnishedTrackerApplUrl =
-    "https://drive.google.com/drive/folders/1GXkqpHH7Rn7R1NJ50VSCP2K-hp5ZoVFM";
+    "https://drive.google.com/file/d/12M7T_ep1B858HkS8eVLisbYZhFxInVPw/view?usp=drive_link";
 
   if (
     /android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/i.test(
